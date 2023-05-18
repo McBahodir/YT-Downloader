@@ -5,8 +5,10 @@ import os
 from aiogram import Bot, Dispatcher, types, executor
 from pytube import YouTube
 
+TOKEN = "5469754814:AAGVX8Uq59SKTsdaWS8Q6dpD4cX9bD_ytE4"
+
 logging.basicConfig(level=logging.INFO)
-bot = Bot(token=5469754814:AAGVX8Uq59SKTsdaWS8Q6dpD4cX9bD_ytE4, parse_mode=types.ParseMode.HTML)
+bot = Bot(token=TOKEN, parse_mode=types.ParseMode.HTML)
 dp = Dispatcher(bot)
 
 
